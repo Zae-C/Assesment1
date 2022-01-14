@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int input = 0;
+	int sum = 0;
+	cout << "How many times would you like to shuffle a deck of cards." << endl;
+	cin >> input;
+	while (sum != input) {
+		cout << "shuffle" << endl;
+		sum += 1;
+	}
+}
